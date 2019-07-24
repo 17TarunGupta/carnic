@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" href="img/icon.png">
+        <title>Car's Clinic / About</title>
+
+        <!--    Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!--Fontawesom-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+        <!--Animated CSS-->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--Bootstrap Carousel-->
+        <link type="text/css" rel="stylesheet" href="css/carousel.css" />
+
+        <link rel="stylesheet" href="css/isotope/style.css">
+        <!-- Footer css -->
+        <link rel="stylesheet" href="./footer/css/style.css">
+        <!--Main Stylesheet-->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- About css -->
+        <link rel="stylesheet" href="css/about.css">
+        <!--Responsive Framework-->
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<style>
+        * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px} */
+}
+</style>
+    </head>
+    <body data-spy="scroll" data-target="#header">
+
+        <!--Start Hedaer Section-->
+        <section id="header">
+            <div class="header-area">
+                <!-- <div class="top_header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zero_mp">
+                                <div class="address">
+                                    <i class="fa fa-home floatleft"></i>
+                                    <p>Elephant Road, Dhaka 1205, Bangladesh</p>
+                                </div>
+                            </div> -->
+                            <!--End of col-md-4-->
+                            <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zero_mp">
+                                <div class="phone">
+                                    <i class="fa fa-phone floatleft"></i>
+                                    <p>+ 8801532-987039</p>
+                                </div>
+                            </div> -->
+                            <!--End of col-md-4-->
+                            <!-- <div class="col-md-4">
+                                <div class="social_icon text-right">
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                    <a href=""><i class="fa fa-youtube"></i></a>
+                                </div> -->
+                            <!-- </div> -->
+                            <!--End of col-md-4-->
+                        <!-- </div> -->
+                        <!--End of row-->
+                    <!-- </div> -->
+                    <!--End of container-->
+                <!-- </div> -->
+                <!--End of top header-->
+                <div class="header_menu text-center" data-spy="affix" data-offset-top="50" id="nav">
+                    <div class="container">
+                        <nav class="navbar navbar-default zero_mp ">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                            </div>
+                            <!--End of navbar-header-->
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse zero_mp" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right main_menu">
+                                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                                    <li><a href="About.html">about</a></li>
+                                    <li><a href="#blog">blog</a></li>
+                                    <li><a href="Join.html">join</a></li>
+                                    <li><a href="contact.html">contact us</a></li>
+                                    <li><a href="#testimonial">Login / Sign up</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                        <!--End of nav-->
+                    </div>
+                    <!--End of container-->
+                </div>
+                <!--End of header menu-->
+            </div>
+            <!--end of header area-->
+        </section>
+        <!--End of Hedaer Section-->
+
+<!--Start of blog-->
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest_blog text-center">
+                            <h2>latest blog</h2>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum libero vitae quos eaque commodi.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End of row -->
+                 <div class="row">
+                    <div class="col-md-4">
+                        <div class="blog_news">
+                            <div class="single_blog_item">
+                                <div class="blog_img">
+                                    <img src="./img/newcar.jpg" alt="">
+                                </div>
+                                <div class="blog_content">
+                                    <a href=""><h3>Top Upcoming Cars in India Launching this year</h3></a>
+                                    <!-- <div class="expert">
+                                        <div class="left-side text-left">
+                                            <p class="left_side">
+                                                <span class="clock"><i class="fa fa-clock-o"></i></span>
+                                                <span class="time">Aug 19, 2016</span>
+                                                <a href=""><span class="admin"><i class="fa fa-user"></i> Admin</span></a>
+                                            </p>
+                                            <p class="right_side text-right">
+                                                <a href=""><span class="right_msg text-right"><i class="fa fa-comments-o"></i></span>
+                                                    <span class="count">0</span></a>
+                                            </p>
+                                        </div>
+                                    </div> -->
+
+                                    <p class="blog_news_content">There will be 57 new car launches in India in 2019 - 2020 which includes MG Hector, Hyundai Kona EV and Renault Triber. The latest car launches in India will feature 11 sedan(s), 1 coupe(s), 16 hatchback(s), 28 suv(s) and 1 compactsedan(s) </p>
+                                    <a href="https://www.carwale.com/upcoming-cars/" class="blog_link"><br><br><br>read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-4-->
+                    <div class="col-md-4">
+                        <div class="blog_news">
+                            <div class="single_blog_item">
+                                <div class="blog_img">
+                                    <img src="./img/Sachincar.jpg" alt="">
+                                </div>
+                                <div class="blog_content">
+                                    <a href=""><h3>10 most EXPENSIVE cars of Indian cricketers</h3></a>
+                                    <!-- <div class="expert">
+                                        <div class="left-side text-left">
+                                            <p class="left_side">
+                                                <span class="clock"><i class="fa fa-clock-o"></i></span>
+                                                <span class="time">Aug 19, 2016</span>
+                                                <a href=""><span class="admin"><i class="fa fa-user"></i> Admin</span></a>
+                                            </p>
+                                            <p class="right_side text-right">
+                                                <a href=""><span class="right_msg text-right"><i class="fa fa-comments-o"></i></span>
+                                                    <span class="count">0</span></a>
+                                            </p>
+                                        </div>
+                                    </div> -->
+
+                                    <p class="blog_news_content">Indian cricketers end up earning a lot of money through match fees, product endorsements, et al. These high earnings let them splurge on a really hot set of wheels. We have already talked in detail about the various high-end motorcycles and SUVs our cricketers own.</p>
+                                    <a href="https://m.dailyhunt.in/news/india/english/cartoq+old-epaper-cartog/10+most+expensive+cars+of+indian+cricketers+virat+kohli+s+r8+supercar+to+ms+dhoni+s+hummer-newsid-85455026" class="blog_link"><br><br>read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-4-->
+                    <div class="col-md-4">
+                        <div class="blog_news">
+                            <div class="single_blog_item">
+                                <div class="blog_img">
+                                    <img src="./img/armord.jpg" alt="">
+                                </div>
+                                <div class="blog_content">
+                                    <a href=""><h3>TOP 10 PERSONAL SECURITY VEHICLES.</h3></a>
+                                    <!-- <div class="expert">
+                                        <div class="left-side text-left">
+                                            <p class="left_side">
+                                                <span class="clock"><i class="fa fa-clock-o"></i></span>
+                                                <span class="time">Aug 19, 2016</span>
+                                                <a href=""><span class="admin"><i class="fa fa-user"></i> Admin</span></a>
+                                            </p>
+                                            <p class="right_side text-right">
+                                                <a href=""><span class="right_msg text-right"><i class="fa fa-comments-o"></i></span>
+                                                    <span class="count">0</span></a>
+                                            </p>
+                                        </div>
+                                    </div> -->
+
+                                    <p class="blog_news_content">The average person uses vehicles for transportation needs, but for some, vehicles also need to provide security and protection. Celebrities, government and political officials, the secret service, the military and even criminals use armored vehicles to ensure their own safety. </p>
+                                    <a href="https://www.criminaljusticedegreehub.com/personal-security-vehicles/" class="blog_link"><br><br>read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-4-->
+                </div>
+                <!--End of row-->
+            </div>
+            <!--End of container-->
+        </section>
+        <!-- end of blog-->
+
+        <!--start of event-->
+        <section id="event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="event_header text-center">
+                            <h2>latest event</h2>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!--End of row-->
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6 zero_mp">
+                                <div class="event_item">
+                                    <div class="event_img">
+                                        <img src="./img/Chennai.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 zero_mp">
+                                <div class="event_item">
+                                    <div class="event_text text-center">
+                                        <a href=""><h4>Automotive Engineering Show</h4></a>
+                                        <h6>04-06 july in Chennai</h6>
+                                        <p>Automotive Engineering Show is one of the primary automotive industry trade shows in India. The show also organises Automotive Engineering Show New Delhi which will be held in 2019.</p>
+                                        <a href="https://automotive-engineering-show.in.messefrankfurt.com/chennai/en.html" class="event_btn">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of row-->
+                        <div class="row">
+                            <div class="col-md-6 zero_mp">
+                                <div class="event_item">
+                                    <div class="event_text text-center">
+                                        <a href=""><h4>ETAuto Retail Forum</h4></a>
+                                        <h6>04 Sep in New Delhi</h6>
+                                        <p>A forum handcrafted for automobile dealers to help them explore new business models. India's largest and most coveted event on automotive retailing and dealership.</p>
+                                        <a href="https://auto.economictimes.indiatimes.com/autoretailforum?ag=brandsol" class="event_btn">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 zero_mp">
+                                <div class="event_item">
+                                    <div class="event_img">
+                                        <img src="./img/Delhi.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of row-->
+                    </div>
+                    <!--End of col-md-8-->
+                    <div class="col-md-4">
+                        <div class="event_news">
+                            <div class="event_single_item fix">
+                                <div class="event_news_img floatleft">
+                                    <img src="./img/pune.jpg" alt="">
+                                </div>
+                                <div class="event_news_text">
+                                    <a href="https://www.townscript.com/e/pune-motor-show-2019-210314?prS=listing&seS=topicpage"><h4>Pune Motor Show 2019</h4></a>
+                                    <p>VENUE : DECCAN COLLEGE ROAD, YERAWADA, PUNE, INDIA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event_news">
+                            <div class="event_single_item fix">
+                                <div class="event_news_img floatleft">
+                                    <img src="./img/mumbai.jpg" alt="">
+                                </div>
+                                <div class="event_news_text">
+                                    <a href="https://www.townscript.com/e/india-auto-show-203102?prS=listing&seS=topicpage"><h4>India Auto Show 2019</h4></a>
+                                    <p>VENUE : BOMBAY EXHIBITION CENTRE, NESCO, GOREGAON, MUMBAI, INDIA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event_news">
+                            <div class="event_single_item fix">
+                                <div class="event_news_img floatleft">
+                                    <img src="./img/rubbertech.png" alt="">
+                                </div>
+                                <div class="event_news_text">
+                                    <a href="https://www.townscript.com/e/asia-rubber-expo-rubbertech-india-2020-143030?prS=listing&seS=topicpage"><h4>Rubber Tech India 2020</h4></a>
+                                    <p>VENUE : CHENNAI TRADE CENTRE, NANDAMBAKKAM, CHENNAI, INDIA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event_news">
+                            <div class="event_single_item fix">
+                                <div class="event_news_img floatleft">
+                                    <img src="./img/ludhiana.png" alt="">
+                                </div>
+                                <div class="event_news_text">
+                                    <a href="http://www.machautoexpo.in/"><h4>Mach Auto Expo 2019</h4></a>
+                                    <p>VENUE : GLADA GROUND, LUDHIANA, PUNJAB, INDIA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event_news">
+                            <div class="event_single_item fix">
+                                <div class="event_news_img floatleft">
+                                    <img src="./img/noida.jpg" alt="">
+                                </div>
+                                <div class="event_news_text">
+                                    <a href="https://www.autotuningindia.com/"><h4>Auto Tuning India 2020</h4></a>
+                                    <p>VENUE : JAYPEE SPORTSCITY, GREATER NOIDA, INDIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-4-->
+                </div>
+                <!--End of row-->
+            </div>
+            <!--End of container-->
+        </section>
+        <!--end of event-->
+
+                <!--footer strat here-->
+<!-- <h1>Flat Footer Widget</h1> -->
+<div class="footer">
+        <div class="wrap">
+            <div class="footer-main">
+                <div class="ftr-grid-main">
+                    <div class="footer-grid">
+                         <h3> </h3>
+                        <ul>
+                            <li><a href=""><img src="./img/icon.png" alt="" width="45%" height="45%" style="margin-left: 120px; margin-top: -30px;"></a></li>						
+                        </ul>					
+                    </div>
+                    
+                    <div class="footer-grid">
+                        <ul>
+                            <a href="About.html"><h3>About Us</h3></a>
+                            <li><a href="Join.html"> Join Us </a></li>	
+                            <li><a href="blog.html"> Our Blog </a></li>	
+                            <li><a href="contact.html"> Contact Us </a></li>
+                            <li><a href="./Login/index.html">Login / Sign Up</a></li>							
+                        </ul>
+                            
+                    </div> 
+                    <div class="footer-grid">
+                        <h3>Our Work</h3>
+                        <p>Carnic Website will show Customers randomly selected Dealers from the database. All selected Dealers will receive email or SMS to contact the Customer.</p>	
+                    </div>
+                    <div class="footer-grid">
+                        <h3>Get Updated </h3>
+                        <form action="#" method="post"> 
+                            <input type="text" placeholder="Email" name="Email" required="">
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                    <!-- <div class="footer-grid">
+                        <h3>Follow us</h3>
+                        <ul class="social-icon">
+                            <li><a href="#" class="fb"> </a></li>
+                            <li><a href="#" class="tw"> </a></li>
+                            <li><a href="#" class="gmail"> </a></li>
+                        </ul>
+                    </div> -->
+                    <div class="clear"> </div>
+                </div>
+                <div class="ftr-bottom">
+                    <div class="ftr-bottom-grid">
+                        <ul>
+                           <h3>Payment Options</h3>
+                           <li><a class="pay1" href="#"> </a>
+                           <li><a class="pay2" href="#"> </a>
+                           <li><a class="pay3" href="#"> </a>
+                           <li><a class="pay4" href="#"> </a>
+                        </ul>
+                    </div>
+                    <div class="ftr-bottom-grid">
+                        <h3>Address</h3>
+                        <p>Una Road, Bajwara,</p>
+                         <p>Hoshiarpur, Punjab, India.</p>
+                    </div>
+                    <div class="ftr-bottom-grid"  style="margin-left: -100px;">
+                        <h3>Additional informations</h3>
+                        <p>You agree that Carnic shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings.</p>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end here-->
+                        <!--Start of footer-->
+                        <section id="footer">
+                                <div class="container">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <div class="copyright">
+                                                <p>Copyrights @ 2019 -All Rights Reserved By Carnic <span><a href="">&#9798;</a></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="designer">
+                                                <!-- <p>A Design By <a href="#">XpeedStudio</a></p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End of row-->
+                                </div>
+                                <!--End of container-->
+                            </section>
+                            <!--End of footer-->

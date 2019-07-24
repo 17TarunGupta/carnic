@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 15px;
+  }
+  
+  .about {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .about img {vertical-align: middle;}
+  
+  .about .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .about h2 :hover{
+    color: #337ab7;
+  }

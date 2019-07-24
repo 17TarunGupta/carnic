@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="gfont.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="dark.min.css" type="text/css">
+	<link rel="stylesheet" href="font-icons.min.css" type="text/css">
+	<link rel="stylesheet" href="animate.min.css" type="text/css">
+	<link rel="stylesheet" href="magnific-popup.min.css" type="text/css">
+	<link rel="stylesheet" href="responsive.min.css" type="text/css">
+	<link rel="icon" href="../../img/icon.png">
+	<title>Select Your Car</title>
+	<script>
+		function goToNewPage()
+		 {
+			 var selection = document.getElementById("brand_id");
+		 var url = selection.value;
+		 console.log("url", url);
+		 if (url != "")
+		 {
+		 window.open(url);
+		 }
+		 }
+		</script>
+</head>
+<body>
+    <div class="modal show popupbg" tabindex="-1" role="dialog" id="car_select" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="parallax">
+			<div class="carselect modal-dialog">
+				<div class="modal-body nopadding">
+					<div class="row nomargin clearfix">
+						<div class="fright">
+							&nbsp;
+						</div>
+						<div class="col-md-6 brand_pop_up" data-height-lg="300" data-height-md="300"
+							data-height-sm="300" data-height-xs="0" data-height-xxs="0" style="height: 300px;"></div>
+						<div class="col-md-6 popup-padding" data-height-lg="280" data-height-md="280"
+							data-height-sm="280" data-height-xs="280" data-height-xxs="280"
+							style="width: 350px; height: 280px;">
+							<div class="header-sticksml">
+								<h4 class="uppercase ls1">Enter Car Details
+								</h4>
+								<form 
+									onsubmit="goToNewPage()"
+									class="clearfix has-validation-callback ng-pristine ng-valid"
+									style="max-width: 300px;">
+									<div class="col_full bottommargin-sm">
+										<label for="" class="capitalize t600">Choose Your Car Brand:</label>
+										<select name="model" id="brand_id"
+											class="select-1 form-control select2-hidden-accessible"
+											placeholder="Select Your Car" tabindex="-1" aria-hidden="true">
+											<option value=""></option>
+											<optgroup label="Maruti">
+												<option value="../../Dentpaint/maruti800.html" title="Maruti-800-Petrol">800-Petrol</option>
+												<option value="../../Dentpaint/marutialtopetrol.html" title="Maruti-Alto-Petrol">Alto-Petrol</option>
+												<option value="../../Dentpaint/altok10petrol.html" title="Maruti-Alto K10-Petrol">Alto K10-Petrol</option>
+												<option value="../../Dentpaint/wagonr.html" title="Maruti-Wagon-R-Petrol">Wagon R-Petrol
+												</option>
+												<option value="../../Dentpaint/estilopetrol.html" title="Maruti-Estilo-Petrol">Estilo-Petrol</option>
+												<option value="../../Dentpaint/zenpetrol.html" title="Maruti-Zen-Petrol">Zen-Petrol</option>
+												<option value="../../Dentpaint/ritzpetrol.html" title="Maruti-Ritz-Petrol">Ritz-Petrol</option>
+												<option value="../../Dentpaint/ritzdiesel.html" title="Maruti-Ritz-Diesel">Ritz-Diesel</option>
+												<option value="../../Dentpaint/swiftdzirepetrol.html" title="Maruti-Swift-Dzire-Petrol">Swift Dzire-Petrol
+												</option>
+												<option value="../../Dentpaint/swiftdzirediesel.html" title="Maruti-Swift-Dzire-Diesel">Swift Dzire-Diesel
+												</option>
+												<option value="../../Dentpaint/esteem.html" title="Maruti-Esteem-Petrol">Esteem</option>
+												<option value="../../Dentpaint/versa.html" title="Maruti-Versa-Petrol">Versa-Petrol</option>
+												<option value="../../Dentpaint/ertiga.html" title="Maruti-Ertiga-Petrol">Ertiga</option>
+												<option value="../../Dentpaint/gypsy.html" title="Maruti-Gypsy-Petrol">Gypsy</option>
+												<option value="../../Dentpaint/sx4.html" title="Maruti-Sx4-Petrol">Sx4</option>
+												<option value="../../Dentpaint/bleno.html" title="Maruti-Baleno-Petrol">Baleno</option>
+												<option value="../../Dentpaint/celerio.html" title="Maruti-Celerio-Petrol">Celerio
+												</option>
+												<option value="../../Dentpaint/ciaz.html" title="Maruti-Ciaz-Petrol">Ciaz </option>
+												<option value="../../Dentpaint/scross.html" title="Maruti-S-Cross">S-Cross</option>>
+												<option value="../../Dentpaint/vitarabrezza.html" title="Maruti-Vitara-Brezza">Vitara Brezza</option>
+											</optgroup>
+											<optgroup label="Hyundai"> 
+												<option value="../../Dentpaint/eonpetrol.html" title="Hyundai-Eon-Petrol">Eon-Petrol</option>
+												<option value="../../Dentpaint/santro.html" title="Hyundai-Santro-Petrol">Santro-Petrol</option>
+												<option value="../../Dentpaint/grandi10.html" title="Hyundai-i10-Petrol"> Grand i10</option>
+												<option value="../../Dentpaint/i20.html" title="Hyundai-i20-Petrol">i20</option>
+												<option value="../../Dentpaint/verna.html" title="Hyundai-Verna-Diesel">Verna-Diesel</option>
+												<option value="../../Dentpaint/elantra.html" title="Hyundai-Elantra-Petrol">Elantra</option>
+												<option value="../../Dentpaint/sonata.html" title="Hyundai-Sonata-Diesel">Sonata</option>
+												<option value="../../Dentpaint/i20elite.html" title="Hyundai-I20-Elite-Diesel">I20 Elite</option>
+												<option value="../../Dentpaint/xcent.html" title="Hyundai-Xcent-Petrol">Xcent</option>
+												<option value="../../Dentpaint/creta.html" title="Hyundai-Creta-Diesel">Creta</option>
+											</optgroup>
+											<optgroup label="Honda">
+												<option value="../../Dentpaint/jazz.html" title="Honda-Jazz-Diesel">Jazz</option>
+												<option value="../../Dentpaint/amaze.html" title="Honda-AMAZE-Petrol">AMAZE</option>
+												<option value="../../Dentpaint/city.html" title="Honda-CITY-Petrol">CITY</option>
+												<option value="../../Dentpaint/mobilio.html" title="Honda-Mobilio-Petrol">Mobilio</option>
+											</optgroup>
+											<optgroup label="Toyota">
+												<option value="../../Dentpaint/camry.html" title="Toyota-Camry">Camry</option>
+												<option value="../../Dentpaint/etios.html" title="Toyota-Etios-Petrol">Etios</option>
+												<option value="../../Dentpaint/corolla.html" title="Toyota-Corolla-Petrol">Corolla
+												</option>
+												<option value="../../Dentpaint/altis.html" title="Toyota-Altis-Diesel">Altis</option>
+												<option value="../../Dentpaint/innova.html" title="Toyota-Innova-Diesel">Innova</option>
+												<option value="../../Dentpaint/fortuner.html" title="Toyota-Fortuner-Diesel">Fortuner
+												</option>
+												<option value="../../Dentpaint/etiosliva.html" title="Toyota-Etios-Liva-Petrol">Etios Liva
+												</option>
+												<option value="../../Dentpaint/qualis.html" title="Toyota-Qualis">Qualis</option>
+											</optgroup>
+											<optgroup label="Mahindra">
+												<option value="../../Dentpaint/thar.html" title="Mahindra-Thar-Diesel">Thar</option>
+												<option value="../../Dentpaint/bolero.html" title="Mahindra-Bolero-Diesel">Bolero
+												</option>
+												<option value="../../Dentpaint/quanto.html" title="Mahindra-Quanto-Diesel">Quanto
+												</option>
+												<option value="../../Dentpaint/xylo.html" title="Mahindra-Xylo---Diesel">Xylo
+												</option>
+												<option value="../../Dentpaint/scorpio.html" title="Mahindra-Scorpio-Diesel">Scorpio
+												</option>
+												<option value="../../Dentpaint/xuv500.html" title="Mahindra-XUV500---Diesel">XUV500
+												</option>
+												<option value="../../Dentpaint/verito.html" title="Mahindra-Verito-Petrol">Verito
+												</option>
+											</optgroup>
+											<optgroup label="Tata">
+												<option value="../../Dentpaint/safari.html" title="Tata-Safari-Dicor">Safari Dicor</option>
+												<option value="../../Dentpaint/nano.html" title="Tata-Nano-Petrol">Nano-Petrol</option>
+												<option value="../../Dentpaint/indica.html" title="Tata-Indica-Petrol">Indica </option>
+												<option value="../../Dentpaint/indicavista.html" title="Tata-Indica-Vista-Diesel">Indica Vista
+												</option>
+												<option value="../../Dentpaint/indigo.html" title="Tata-Indigo-Diesel">Indigo</option>
+												<option value="../../Dentpaint/safaristorme.html" title="Tata-Safari-Storme-Diesel">Safari Storme
+												</option>
+												<option value="../../Dentpaint/sumo.html" title="Tata-Sumo">Sumo</option>
+												<option value="../../Dentpaint/nexon.html" title="Tata-Nexon-Petrol">Nexon</option>
+											</optgroup>
+											<optgroup label="Ford">
+												<option value="../../Dentpaint/figo.html" title="Ford-Figo-Petrol">Figo</option>
+												<option value="../../Dentpaint/endeavour.html" title="Ford-Endeavour-Diesel">Endeavour
+												</option>
+												<option value="../../Dentpaint/eco.html" title="Ford-Eco-Sport-Petrol">Eco Sport
+												</option>
+												<option value="../../Dentpaint/figoaspire.html" title="Ford-Figo-Aspire-Petrol">Figo Aspire
+												</option>
+												<option value="../../Dentpaint/ikon.html" title="Ford-Ikon-Petrol">Ikon</option>
+											</optgroup>
+											<optgroup label="Volkswagen">
+												<option value="../../Dentpaint/polo.html" title="Volkswagen-Polo-Petrol">Polo</option>
+												<option value="../../Dentpaint/vento.html" title="Volkswagen-Vento-Diesel">Vento
+												</option>
+												<option value="../../Dentpaint/jetta.html" title="Volkswagen-Jetta-Petrol">Jetta
+												</option>
+												<option value="../../Dentpaint/passat.html" title="Volkswagen-Passat-Petrol">Passat
+												</option>
+												<option value="../../Dentpaint/ameo.html" title="Volkswagen-Ameo-Petrol">Ameo</option>
+												<option value="../../Dentpaint/touareg.html" title="Volkswagen-Touareg-Diesel">Touareg
+												</option>
+											</optgroup>
+											<optgroup label="Mitsubishi">
+												<option value="../../Dentpaint/pajero.html" title="Mitsubishi-Pajero">Pajero</option>
+												<option value="../../Dentpaint/lancer.html" title="Mitsubishi-Lancer">Lancer</option>
+											</optgroup>
+											<optgroup label="Audi">
+												<option value="../../Dentpaint/a3.html" title="Audi-A3">A3</option>
+												<option value="../../Dentpaint/a4.html" title="Audi-A4">A4</option>
+												<option value="../../Dentpaint/a6.html" title="Audi-A6">A6</option>
+												<option value="../../Dentpaint/q3.html" title="Audi-Q3">Q3</option>
+												<option value="../../Dentpaint/q5.html" title="Audi-Q5">Q5</option>
+												<option value="../../Dentpaint/q7.html" title="Audi-Q7">Q7</option>
+											</optgroup>
+											<optgroup label="BMW">
+												<option value="../../Dentpaint/x1.html" title="BMW-X1">X1</option>
+												<option value="../../Dentpaint/320d.html" title="BMW-320D">320D</option>
+												<option value="../../Dentpaint/320i.html" title="BMW-320i">320i</option>
+												<option value="../../Dentpaint/520d.html" title="BMW-520D">520D</option>
+												<option value="../../Dentpaint/x3.html" title="BMW-X3">X3</option>
+												<option value="../../Dentpaint/525i.html" title="BMW-525i">525i</option>
+												<option value="../../Dentpaint/720.html" title="BMW-720">720</option>
+											</optgroup>
+											<optgroup label="Mercedes">
+												<option value="../../Dentpaint/gla200.html" title="Mercedes-GLA-200">GLA 200</option>
+												<option value="../../Dentpaint/c200.html" title="Mercedes-C-200">C 200</option>
+												<option value="../../Dentpaint/eclass.html" title="Mercedes-E-Class">E Class</option>
+												<option value="../../Dentpaint/a180.html" title="Mercedes-A180">A180</option>
+												<option value="../../Dentpaint/ml250.html" title="Mercedes-ML-250">ML 250</option>
+												<option value="../../Dentpaint/b180.html" title="Mercedes-B180">B180</option>
+												<option value="../../Dentpaint/ml350.html" title="Mercedes-ML350">ML350</option>
+											</optgroup>
+                                        </select>
+                                        <!-- <span class="select2 select2-container select2-container--default"
+											dir="ltr" style="width: 300px;"><span class="selection"><span
+													class="select2-selection select2-selection--single" role="combobox"
+													aria-haspopup="true" aria-expanded="false" tabindex="0"
+													aria-labelledby="select2-brand_id-container"><span
+														class="select2-selection__rendered"
+														id="select2-brand_id-container"
+														title="Maruti-Alto K10-Petrol"><span
+															class="select2-selection__clear">×</span>Alto
+														K10-Petrol</span><span class="select2-selection__arrow"
+														role="presentation"><b
+															role="presentation"></b></span></span></span><span
+												class="dropdown-wrapper" aria-hidden="true"></span></span> -->
+									</div>
+									<div class="col_full nobottommargin">
+										<button type="submit"
+											class="button button-rounded button-small button-dark nomargin"
+											value="submit">Service Now</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
