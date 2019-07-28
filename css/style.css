@@ -359,7 +359,7 @@ input: -webkit-autofill:focus {
     background-size: cover; 
 } 
 .parallaxb { 
-    background-image: url("https://www.gaadizo.com/images/parallax/1.jpg"); 
+    background-image: url("./img/parallax1.jpg"); 
     height: 300px;  
     width: 100%;
     background-attachment: fixed; 
